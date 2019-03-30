@@ -51,3 +51,27 @@ You can create new exception that extend from this one, and ahd a specific numbe
 To manages errors we create an object error and validation.
  
 Also a dispatcher of errors (I'm not a pro in forms symfony and how to implement it the best way to have all our validation in the domain and just the dispatcher on the form in the Infra). Any Idea ??
+
+## Big project
+
+If you have a big project you can add order you domain with name of your model in all your folder
+* src/
+    * Domain/
+        * Controller
+            * Book/
+            * Author/
+            
+            
+## Note
+
+Why i didn't use the name of the model as name of my main folder.
+
+Exemple: 
+
+* Domain
+    * Book
+        * Controller
+        * Model
+        * ValueObject 
+        
+This is your call. But for me it mak more complexity on your project. I try both.
