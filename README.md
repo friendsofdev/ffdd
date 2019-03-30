@@ -7,6 +7,8 @@ I design this project to build you project and move it from a framework to anoth
 The concept is to move all the MVC part in the domain.
 And to had on the top of it the framework.
 
+The basic view of the FFDD is to have zero "use" of the framework. Only Domain and PHP is use in Domain. 
+
 In the domain you have
 * Model
 * View (Response)
