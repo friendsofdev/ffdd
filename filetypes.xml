@@ -1,0 +1,11 @@
+<application>
+  <component name="FileTypeManager" version="17">
+    <extensionMap>
+      <mapping pattern="hwi.yml" type="PLAIN_TEXT" />
+      <mapping ext="xliff" type="PLAIN_TEXT" />
+      <mapping pattern="allProduct" type="Twig" />
+      <mapping pattern="template-address" type="Twig" />
+      <mapping pattern="Theme" type="Twig" />
+    </extensionMap>
+  </component>
+</application>

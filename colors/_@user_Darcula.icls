@@ -1,0 +1,16 @@
+<scheme name="_@user_Darcula" version="142" parent_scheme="Darcula">
+  <metaInfo>
+    <property name="created">2018-11-10T14:58:54</property>
+    <property name="ide">PhpStorm</property>
+    <property name="ideVersion">2018.1.6.0.0</property>
+    <property name="modified">2018-11-10T16:02:06</property>
+    <property name="originalScheme">Darcula</property>
+  </metaInfo>
+  <attributes>
+    <option name="PHP_COMMENT">
+      <value>
+        <option name="FOREGROUND" value="66d80" />
+      </value>
+    </option>
+  </attributes>
+</scheme>
