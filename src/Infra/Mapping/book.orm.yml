@@ -1,0 +1,16 @@
+App\Domain\Model\Book:
+  type: entity
+  indexes:
+    title_index:
+      columns: [ title ]
+  id:
+    id:
+      type: integer
+      generator:
+        strategy: AUTO
+  fields:
+    title: &string
+      type: string
+      length: 50
+    ref: *string
+
