@@ -1,0 +1,4 @@
+books:
+  path:     /books
+  controller: App\Domain\Controller\GetBookListController::getBooksByTitle
+  methods: GET
