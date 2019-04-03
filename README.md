@@ -52,24 +52,45 @@ To manages errors we create an object error and validation.
  
 Also a dispatcher of errors (I'm not a pro in forms symfony and how to implement it the best way to have all our validation in the domain and just the dispatcher on the form in the Infra). Any Idea ??
 
-## Big project
+## Architecture for Big project
+
+### First method
 
 If you have a big project you can add order you domain with name of your model in all your folder
+
+This is my favorite
+
 * src/
     * Domain/
         * Controller
             * Book/
             * Author/
+        * Model
+            * Book/
+            * Author/
+        * Services
+            * Provider
+                * Book/
+                * Author/
             
+### Why ?
+
+Because you have less folders and if you are searching a service you go in service
+
+### The Second methods is too
+
+Is to order you Model, Provider in the folder that as the name of the major model that is concern about.
+
+For me it's way to long for research, thanks god you have an IDE. Anyway with this method you have to be really care full about with services concerning what goes somewhere
             
-## Note
-
-Why i didn't use the name of the model as name of my main folder.
-
-Exemple: 
+### Example
 
 * Domain
     * Book
+        * Controller
+        * Model
+        * ValueObject 
+    * Author
         * Controller
         * Model
         * ValueObject 
