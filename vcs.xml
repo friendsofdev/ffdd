@@ -14,6 +14,10 @@
           <option name="url" value="http://github.com/castroCrea/admin-node-mongo-react.git" />
           <option name="userName" value="castroCrea" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="http://github.com/castroCrea/admin-node-mongo-react-client.git" />
+          <option name="userName" value="castroCrea" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="$USER_HOME$/sites" />
