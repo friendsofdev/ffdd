@@ -1,5 +1,5 @@
 <toolSet name="External Tools">
-  <tool name="eslint" description="Automatically fix issue" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+  <tool name="eslint" description="Automatically fix issue" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="true" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
     <exec>
       <option name="COMMAND" value="$USER_HOME$/sites/slite/pulsar/customLib/ckeditor5-build-balloon/node_modules/eslint/bin/eslint.js" />
       <option name="PARAMETERS" value="--fix $FilePathRelativeToProjectRoot$" />
